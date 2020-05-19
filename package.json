@@ -1,0 +1,20 @@
+{
+  "name": "reactapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-myconnection": "^1.0.4",
+    "file-system": "^2.2.2",
+    "mysql": "^2.18.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
