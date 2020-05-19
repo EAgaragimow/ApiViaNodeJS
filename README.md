@@ -1,5 +1,5 @@
 # nodeJsApi
-I create API via NodeJS.
+API via NodeJS.
 
 Some documentation:
 
