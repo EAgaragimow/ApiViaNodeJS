@@ -3,10 +3,10 @@ API via NodeJS.
 
 Some documentation:
 
-- /products/all - get all products
-- /cart/load - load cart by ?cart_id
-- /cart/loadProducts - load cart products by ?cart_id
-- /cart/addProduct - add some product to cart by ?cart_id and ?product_id
-- /cart/removeProduct - remove some product from cart by ?cart_id and ?product_id
-- /cart/changeProduct - change products`s quantity in cart by ?cart_id, ?quantity and ?product_id
-- /cart/cleanCart - clean cart by ?cart_id
+- Get all products - /products/all
+- Load cart - /cart/load?cart_id=1
+- Load cart products - /cart/loadProducts?cart_id=1
+- Add some product to cart - /cart/addProduct?cart_id=1&product_id=32
+- Remove some product from cart - /cart/removeProduct?cart_id=1&product_id=32
+- Change products`s quantity in cart - /cart/changeProduct?cart_id=1&quantity=3&product_id=32
+- Clean cart - /cart/cleanCart?cart_id=1
